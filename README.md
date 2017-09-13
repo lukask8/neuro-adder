@@ -1,8 +1,25 @@
-# Neuro sum calculator
+# Neuro Adder
 
 # Content
 
-
+- [Neuro sum calculator](#neuro-sum-calculator)
+- [Content](#content)
+- [Intro](#intro)
+  * [Notes](#notes)
+- [Getting Started](#getting-started)
+  * [Quick run](#quick-run)
+- [Usage](#usage)
+  * [Train your neural network](#train-your-neural-network)
+  * [Test your neural network](#test-your-neural-network)
+- [Transcoding](#transcoding)
+  * [Transcoding model](#transcoding-model)
+    + [Input model](#input-model)
+    + [Output](#output)
+    + [Transcoding model examples](#transcoding-model-examples)
+- [Conclusion](#conclusion)
+- [Misc](#misc)
+  * [CSV file and training data](#csv-file-and-training-data)
+  * [Hello world (XOR Demo)](#hello-world-xor-demo)
 
 
 # Intro
