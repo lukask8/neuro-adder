@@ -60,11 +60,11 @@ Execute ```npm install``` to install required modules or manually:
 
 Train some neural networks with default dataset
 
-    $ npm train
+    $ npm run train
 
 Test neural networks with:
 
-    $ npm test
+    $ npm run test
 
 
 # Usage
