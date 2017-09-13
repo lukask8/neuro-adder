@@ -21,7 +21,6 @@
   * [CSV file and training data](#csv-file-and-training-data)
   * [Hello world (XOR Demo)](#hello-world-xor-demo)
 
-
 # Intro
 
 An "are you crazy" & useless sum calculator example/demo code for  [*Brain JS*](https://github.com/BrainJS/brain.js) (https://brain.js.org/).
