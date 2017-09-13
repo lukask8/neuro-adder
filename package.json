@@ -1,0 +1,14 @@
+{
+  "name": "Useless-sum-calculator",
+  "author": "lsc",
+  "version": "0.1.0",
+  "scripts": {
+    "train": "node app-trainer.js",
+    "test": "node app-tester.js"
+  },
+  "dependencies": {
+    "brain.js": "^1.0.0-rc.3",
+    "fast-csv": "*.*",
+    "inquirer": " *.*"
+  }
+}
