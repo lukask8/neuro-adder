@@ -45,6 +45,7 @@ const fs = require('fs');               // Read files
  Functions
 *******************************************************************************/
 /**
+ * transcodeToBinary
  * Transcode user input number to NN input format.
  * Transcode from a single numeric digit [0..9] to a binary rappresentation.
  *
@@ -70,6 +71,7 @@ function transcodeToBinary(input_number){
 }
 
 /**
+ * transcodeToDecimal
  * Transcode NN format to digit number
  * Normalized function = MAX(Input)
  *
@@ -111,8 +113,8 @@ net_array.push({ filename : 'h44-90kloop.nn', net : new brain.NeuralNetwork({ hi
 net_array.push({ filename : 'h80-90kloop.nn', net : new brain.NeuralNetwork({ hiddenLayers: [80] })});
 net_array.push({ filename : 'h30-h30-90kloop.nn', net : new brain.NeuralNetwork({ hiddenLayers: [30,30] })});
 
+// Load a NN from file
 net_array.forEach(function(item){
-  // Load a NN from file
   item.net.fromJSON(JSON.parse(fs.readFileSync(item.filename)));
 });
 
